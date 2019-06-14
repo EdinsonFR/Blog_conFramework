@@ -1,0 +1,38 @@
+body{
+  background-color: black;
+}
+.logotipo{
+  width: 45vh;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+}
+.icono{
+  width: 6.5vh;
+}
+.reSociales{
+  margin-bottom: 0.8vh;
+}
+header{
+  padding: 3vh;
+}
+.nav{
+  background-color: gray;
+  padding: 0;
+  padding-left: 0.125vh;
+}
+h3{
+  padding: 0.55vh;
+}
+.contenido{
+  background-color: white;
+}
+.texto{
+  font-size: 2.5vh;
+}
+.imagen1{
+  width: 95%;
+  margin: 1vh;
+}
+nav{
+
+}
