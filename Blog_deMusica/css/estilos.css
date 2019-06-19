@@ -2,37 +2,63 @@ body{
   background-color: black;
 }
 .logotipo{
-  width: 45vh;
+  width: 20vh;
   margin-top: 0.5vh;
   margin-bottom: 0.5vh;
 }
-.icono{
-  width: 6.5vh;
-}
-.reSociales{
-  margin-bottom: 0.8vh;
+.iconos{
+  margin-left: 1vh;
+  width: 4vh;
 }
 header{
+  background-image: url(../img/portada.jpg);
   padding: 3vh;
 }
-.nav{
+.nav-nav{
   background-color: gray;
-  padding: 0;
-  padding-left: 0.125vh;
 }
-h3{
-  padding: 0.55vh;
+a{
+  font-size: 25px;
+  color: white;
+}
+.none{
+  margin-left: 0 !important;
 }
 .contenido{
   background-color: white;
 }
-.texto{
-  font-size: 2.5vh;
-}
-.imagen1{
-  width: 95%;
-  margin: 1vh;
-}
-nav{
 
+.imagen1{
+  width: 100%;
+}
+.imagen2{
+  width: 100%;
+  margin-top: 2.8%;
+  margin-left: 2%;
+}
+.imagen3{
+  padding-left: 1vh;
+  padding-top: 1vh;
+}
+.busqueda{
+  background-color: gray;
+  color: white;
+}
+.lupa{
+  width: 3vh;
+}
+#input{
+
+}
+.cont{
+  background-color: black;
+}
+@media (min-width: 1090px) {
+body{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+}
+@media (min-width: 520px;) {
+  
 }
