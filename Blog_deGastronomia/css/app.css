@@ -1,6 +1,166 @@
-.color{
-  background-color: skyblue;
+body{
+  font-size: 2.5vh;
+  color: white;
+  background-size: cover;
+  background-image: url(../img/fondo1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-img{
-  width: 6vh;
+/* color del fondo de las recetas y la barra izquierda*/
+#color-fondo{
+  background-color: rgb(239,215,188, 0.4);
+}
+/* edicion del header */
+header{
+  background-color: rgb(175,108,33,0.875);
+  padding-top: 1.5vh;
+  padding-bottom: 1vh;
+}
+#img{
+  width: 100%;
+}
+/* edicion de la columna izquierda */
+    /* color de fondo */
+    #color-izquierdo{
+      padding-bottom: 1vh;
+      background-color: rgba(228,171,52, 0.4);
+    }
+    /* edicion del input*/
+    #buscador{
+      padding-top: 0.85vh;
+      padding-left: 1vh;
+      padding-right: 1vh;
+    }
+    /* color del boton */
+    #boton{
+      padding-top: 5.25px;
+      padding-bottom: 5.25px;
+      background-color: #9D1B1B;
+    }
+    #lupa{
+      font-size: 25px;;
+    }
+    /* edicion del navbar */
+    .nav{
+      margin-bottom: 0.5vh;
+      margin-top: 0.8vh;
+      color: white;
+      background-color: brown;
+    }
+    .nav li a{
+      color: white;
+    }
+    /* edicion de favoritos */
+    #favoritos{
+      background-color: rgb(239,215,188, 0.2);
+      margin-top: 0.8vh;
+    }
+    #img-f{
+      margin-bottom: 0.5vh!important;
+      margin: 0;
+      padding: 0;
+    }
+    /* edicion del historial */
+    #historial{
+      background-color: rgb(239,215,188, 0.2);
+      margin-top: 1vh;
+    }
+    .lista li a{
+      color: brown;
+      font-size: 2vh;
+    }
+/* Edicion de las recetas */
+    /* color de fondo */
+    #color-recetas1{
+      padding-bottom: 2vh;
+      background-color: rgb(238,171,54,0.6);
+    }
+    #color-recetas2{
+      padding-bottom: 2vh;
+      margin-top: 1vh;
+      background-color: rgb(238,171,54,0.6);
+    }
+    /* edicion de la fecha de prublicacion */
+    #fecha{
+      color: brown;
+    }
+    /* edicion de nombre de la receta */
+    #receta{
+      padding-top: 1vh;
+      padding-bottom: 0;
+      margin-bottom: 0;
+      font-size: 3.5vh;
+    }
+    /* edicion de imagenes de las recetas */
+    #img-recetas{
+      width: 100%;
+      margin-bottom: 1.5vh;
+    }
+    /* edicion de texto */
+    #texto{
+      font-size: 2vh;
+    }
+    ul{
+      margin-left: 3vh;
+    }
+    ol{
+      margin-left: 3vh;
+      margin-right: 1vh;
+    }
+    .span{
+      color: brown;
+    }
+    .subtitulo{
+      font-size: 20px;
+    }
+    /* coloca una linea al final de cada receta */
+    .linea{
+      padding-bottom: 1vh;
+      border-bottom: 2px solid brown;
+    }
+    /* coloca una linea divisora entre la receta con sus comentaiors */
+    .linea1{
+    margin-top: 2vh;
+    }
+    /* edicion del comentario */
+    .publicar{
+      float: right;
+      padding: 1vh;
+      margin-bottom: 3vh;
+      background-color: brown
+    }
+    #comentario{
+      font-size: 3vh;
+    }
+    .usuario{
+      padding-right: 1vh;
+      font-size: 18px;
+    }
+    .usuariospan{
+      font-size: 15px;
+    }
+    .img-coment{
+      margin-left: 2vh;
+      width: 90%;
+    }
+    .linea-coment{
+      border-top: 2px solid brown;
+      border-bottom: 2px solid brown;
+      padding-top: 1.5vh;
+      padding-bottom: 0.7vh;
+      margin-bottom: 1.5vh;
+    }
+    .linea-coment1{
+      padding-top: 1.5vh;
+      margin-bottom: 0.7vh;
+      border-top: 2px solid brown;
+    }
+    .linea-coment2{
+      border-bottom: 2px solid brown;
+      padding-bottom: 0.7vh;
+    }
+@media (max-width: 750px;) {
+  body{
+    font-size: 120%;
+  }
 }

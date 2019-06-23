@@ -2,40 +2,221 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width:device-width,user-scalable=no">
-    <link rel="stylesheet" href="css/foundation.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="foundation-icons/foundation-icons.css">
     <link rel="stylesheet" href="css/app.css">
-    <title></title>
+    <title>Blog de Gastronomia</title>
   </head>
   <body>
-    <div class="row color">
-      <div class="columns small-4 medium-4 large-4">
-        <div class="row">
-          <div class="columns small-12 medium-12 large-12">
-            <h3>Gastronomia GT</h3>
+    <header class="hide-for-small-only">
+      <!-- titulo del brlog y slogan -->
+      <div class="row">
+        <div class="columns small-12 medium-4 large-4 hide-for-small-only">
+          <img src="img/GT.png" alt="nombre & slogan" id="img">
+        </div>
+      </div>
+    </header>
+    <!-- Contenido del blog -->
+    <div class="row" id="color-fondo">
+      <!-- buscar, menu, favoritos e historial -->
+      <div class="columns small-3 medium-4 large-4 hide-for-small-only">
+        <div class="row" id="color-izquierdo">
+          <!-- Para buscar -->
+          <div class="columns small-12">
+            <form>
+              <div class="row" id="buscador">
+                <div class="large-12 columns">
+                  <div class="row collapse postfix-radius">
+                    <div class="small-10 columns">
+                      <input type="text" placeholder="Buscar...">
+                    </div>
+                    <div class="small-2 columns">
+                      <button type="button" name="button" class="button" id="boton"><i class="fi-magnifying-glass" id="lupa"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
           </div>
-          <div class="columns small-12 medium-12 large-12">
-            <div class="row align-right">
-              <div class="columns small-8 medium-8 large-8">
-                <p>Comer es Vida!</p>
+          <!-- El menu -->
+          <div class="columns small-12">
+            <ul class="vertical menu nav">
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Mi plato perfecto</a></li>
+              <li><a href="#">Mis recetas</a></li>
+            </ul>
+          </div>
+          <!-- Favoritos -->
+          <div class="columns small-12"  id="favoritos">
+            <p>Favoritos</p>
+            <div class="row" id="img-f">
+              <div class="columns small-4" id="img-f">
+                <a href="#"><img src="img/c1.jpg" alt="c1"></a>
+              </div>
+              <div class="columns small-4" id="img-f">
+                <a href="#"><img src="img/c2.jpg" alt="c2"></a>
+              </div>
+              <div class="columns small-4" id="img-f">
+                <a href="#"><img src="img/c4.jpeg" alt="c3"></a>
+              </div>
+              <div class="columns small-4" id="img-f">
+                <a href="#"><img src="img/c3.jpg" alt="c4"></a>
+              </div>
+              <div class="columns small-4" id="img-f">
+                <a href="#"><img src="img/c5.jpg" alt="c5"></a>
+              </div>
+              <div class="columns small-4" id="img-f">
+                <a href="#"><img src="img/c6.jpg" alt="c6"></a>
+              </div>
+            </div>
+          </div>
+          <!-- Historial  -->
+          <div class="columns small-12" id="historial">
+            <p>Historial</p>
+            <div class="row">
+              <div class="columns small-12">
+                <ul class="lista">
+                  <li><a href="#">Pollo Guisado</a></li>
+                  <li><a href="#">Carne Asada</a></li>
+                  <li><a href="#">Frijoles Charroz</a> </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- recetas -->
+      <div class="columns small-12 medium-8 large-8">
+        <div class="row" id="color-recetas1">
+          <!-- primer plato -->
+          <div class="columns small-12">
+            <h3 id="receta">Hilachas</h3>
+            <h5 id="fecha">30 de mayo del 2019</h5>
+            <img src="img/n2s.jpg" alt="Hilachas" id="img-recetas">
+            <p><span class="subtitulo">Ingredientes:</span>
+              <ul id="texto">
+                <li>2 Libras de bolovique</li>
+                <li>1 Libra de tomate</li>
+                <li>1 Cebolla</li>
+                <li>6 Miltomates</li>
+                <li>3 Dientes de ajo</li>
+                <li>1 Chile pimineto rojo </li>
+                <li>2 Chiles guaque</li>
+                <li>1/2 Cucharadita de comino</li>
+                <li>3 Papas en torocitos</li>
+                <li>1 Cucharadita de achiote</li>
+                <li>1 Cucharadita de consome de pollo</li>
+                <li>2 Cucharadita de harina</li>
+                <li>1 Cucharadita de aceite</li>
+              </ul>
+            </p>
+            <p><span class="subtitulo">Instrucciones:</span>
+              <p id="texto" class="text-justify linea">Cocer la carne en un litro de agua, sal y cebolla. Cuando la carne esté completamente cocida y muy suave, sácala de la olla y comienza a deshilacharla, ahora en el caldo de la carne se cosen los tomates, cebolla, chile dulce y chile guaque, miltomates y ajos y luego se licua todo y se fríen el la cucharada de aceite y se deja hervir 5 minutos y se le agrega la carne y las papas y dejar cocer hasta que las papas estén semicocidas y entonces se le agrega la harina para espesar y dejar hervir unos 5 minutos mas y listo, se sirve con un rico arroz.</p>
+            </p>
+            <div class="row">
+              <div class="columns small-12">
+                <div class="row">
+                  <div class="columns small-7">
+                    <span class="span">Escribe tu comentario</span>
+                  </div>
+                  <div class="columns small-12">
+                    <textarea name="name" rows="2" cols="80"></textarea>
+                  </div>
+                  <div class="columns small-12">
+                    <button type="button" name="button" class="publicar">Publicar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- comentarios ya realizados -->
+            <div class="row">
+              <div class="columns small-2 linea-coment1">
+                <img src="img/iconos/svg/003-girl.svg" class="img-coment" alt="Usuario">
+              </div>
+              <div class="columns small-10 linea-coment1">
+                <p class="text-justify usuario">KarlG96:<span class="usuariospan"> Es la mejor recta que encontre para hacer las hilas, y busque en al rededor de 4 pagina</span></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="columns small-2 linea-coment">
+                <img src="img/iconos/svg/004-girl-1.svg" class="img-coment" alt="Usuario">
+              </div>
+              <div class="columns small-10 linea-coment">
+                <p class="text-justify usuario">GRphoto:<span class="usuariospan"> Es la mejor recta que encontre para hacer las hilas, y busque en al rededor de 4 pagina</span></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="columns small-2 linea-coment2">
+                <img src="img/iconos/svg/001-boy.svg" class="img-coment" alt="Usuario">
+              </div>
+              <div class="columns small-10 linea-coment2">
+                <p class="text-justify usuario">Dual_Red:<span class="usuariospan"> Es la mejor recta que encontre para hacer las hilas, y busque en al rededor de 4 pagina</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" id="color-recetas2">
+          <!-- Segundo plato -->
+          <div class="columns small-12 linea1">
+            <h3 id="receta">Dobladas de pollo</h3>
+            <h5 id="fecha">17 de abril del 2019</h5>
+            <p class="subtitulo">Ingredientes:</p>
+            <ul id="texto">
+              <li>5 Tazas de masa de maiz</li>
+              <li>5 Tazas de agua Libra de tomate</li>
+              <li>1 Taza de salsa de tomate</li>
+              <li>3 Cucharadas de consome</li>
+              <li>2 Papas cocinadas al vapor</li>
+              <li>4 Pechugas de Pollo Rey cocinadas al vapor</li>
+              <li>1 Cebolla picada finamente</li>
+              <li>1 Cucharada de aceite de oliva</li>
+              <li>Sal y pimienta al gusto.</li>
+            </ul>
+            <p class="subtitulo">Instrucciones:</p>
+            <ol id="texto">
+              <li class="text-justify">Preparación de la masa: En un recipiente grande amasar la masa de maíz con las 5 tazas de agua, hasta formar una masa homogénea. Agregar a la masa con 2 cucharadas de  consomé y la salsa de tomate. Sazonar con sal y pimienta al gusto, mezclar bien.</li>
+              <li class="text-justify">Preparación del relleno: En una sartén freír la cebolla, la salsa de tomate, el pollo desmenuzado y la papa machucada,  por 10 minutos a fuego medio hasta que se incorporen bien todos los ingredientes.
+              Sazonar con consomé, sal y pimienta al gusto.</li>
+              <li class="text-justify">Preparación de las dobladas: Formar una tortilla con la masa , agregar 1 cucharada de el relleno en el centro de la tortilla. Doblar la tortilla  para que el rellono que adentro, y sellar la orillla de la doblada con tus dedos.
+              Calentar el aceite en una sarten y freir las dobladas de ambos lados, hasta que estén bien doradas.
+              Colocar las dobladas sobre una servilleta para que adsorba el exceso de aceite.
+              Servir acompañadas con salsa roja, queso y perejil.</li>
+            </ol>
+            <img src="img/n1s.jpg" alt="Hilachas" id="img-recetas">
+            <!-- area para los comentarios -->
+            <div class="row">
+              <div class="columns small-12">
+                <div class="row">
+                  <div class="columns small-7">
+                    <span class="span">Escribe tu comentario</span>
+                  </div>
+                  <div class="columns small-12">
+                    <textarea name="name" rows="2" cols="80"></textarea>
+                  </div>
+                  <div class="columns small-4 small-offset-8">
+                    <button type="button" name="button" class="publicar">Publicar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- comentarios ya realizados -->
+            <div class="row">
+              <div class="columns small-2 linea-coment">
+                <img src="img/iconos/svg/003-girl.svg" class="img-coment" alt="Usuario">
+              </div>
+              <div class="columns small-10 linea-coment">
+                <p class="text-justify usuario">KarlG96:<span class="usuariospan"> Las mejores dobladas de pollo y mas con la salsa que contiene el condimiento especial</span></p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="columns small-4 medium-4 large-4">
-        <h6><a href="#">Inicio</a></h6>
-        <h6><a href="#">Mi plato preferido</a></h6>
-        <h6><a href="#">Mis recetas</a></h6>
-        <h6><a href="#">Favoritos</a></h6>
-        <div class="row">
-          <img src="img/006-instagram.svg" alt="imagen">
-          <img src="img/006-instagram.svg" alt="imagen">
-          <img src="img/006-instagram.svg" alt="imagen">
-        </div>
-      </div>
-    </div>
+
+    <script src="js/vendor/jquerry.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
