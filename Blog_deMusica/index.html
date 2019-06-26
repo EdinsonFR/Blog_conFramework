@@ -3,18 +3,19 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog de Musica</title>
+    <title>TECHNO + digital</title>
+    <script src="https://kit.fontawesome.com/90b5d1bff4.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
   </head>
   <body>
-    <!-- Header... esta el logo y las redes sociales -->
-    <header class="container-fluid" id="fondo">
-      <div class="row">
-        <div class="col-12">
+    <div class="container-fluid">
+      <!-- Header... esta el logo y las redes sociales -->
+      <div class="row" id="fondo-logo">
+        <div class="col-6 col-sm-5 col-md-4 col-lg-4 col-xl-3">
           <img src="img/logo.jpg" alt="logo" id="logo">
         </div>
-        <div class="col-12 text-center" id="redes">
+        <div class="col-12 text-center text-sm-right">
           <img src="img/iconos-deRedes/svg/003-youtube.svg" alt="Youtube" id="icono">
           <img src="img/iconos-deRedes/svg/002-twitter.svg" alt="Twitter" id="icono">
           <img src="img/iconos-deRedes/svg/004-instagram.svg" alt="Instagram" id="icono">
@@ -22,83 +23,79 @@
           <img src="img/iconos-deRedes/svg/006-itunes.svg" alt="Itunes" id="icono">
         </div>
       </div>
-    </header>
-    <!-- barra de navegacion -->
-    <div class="container-fluid" id="nav">
-      <div class="row text-center">
-        <div class="col-12">
-          <nav class="navbar navbar-expand-sm navbar-expand-md navbar-expand-lg">
+      <!-- barra de navegacion -->
+      <div class="row">
+        <div class="col-12 pad">
+          <nav class="navbar navbar-expand-sm navbar-expand-md navbar-expand-lg pad">
             <ul class="navbar-nav w-100">
-              <li class="nav-item nav-link active"><a href="#">Inicio</a></li>
-              <li class="nav-item nav-link"><a href="#">Artistas</a></li>
-              <li class="nav-item nav-link"><a href="#">Grupos</a></li>
-              <li class="nav-item nav-link"><a href="#">Top 10</a></li>
-              <li class="nav-item nav-link"><a href="#">Letras</a></li>
-              <li class="nav-item nav-link"><a href="#">Acordes</a></li>
+              <li class="nav-item nav-link active pad"><a class="btn btn-secondary" href="#">Inicio</a></li>
+              <li class="nav-item nav-link pad"><a class="btn btn-secondary" href="#">Artistas</a></li>
+              <li class="nav-item nav-link pad"><a class="btn btn-secondary" href="#">Grupos</a></li>
+              <li class="nav-item nav-link pad"><a class="btn btn-secondary" href="#">Top 10</a></li>
+              <li class="nav-item nav-link pad"><a class="btn btn-secondary" href="#">Letras</a></li>
+              <li class="nav-item nav-link pad"><a class="btn btn-secondary" href="#">Acordes</a></li>
             </ul>
           </nav>
         </div>
       </div>
-    </div>
-    <br>
-    <!-- contenido -->
-    <div class="container-fluid">
+      <br>
+      <!-- contenido -->
       <div class="row" id="contenido">
+        <!--  las noticias -->
         <div class="col-12 col-sm-9 col-md-9 col-lg-9 col-xl-9">
           <div class="row">
             <div class="col-12">
-              <br>
               <h1>Dennis Cuz</h1>
-              <br>
             </div>
-            <div class="col-12 col-sm-7 col-md-7 col-lg-7 col-xl-7">
+            <div class="col-12 col-sm-7 col-md-6 col-lg-7 col-xl-7">
               <p class="lead text-justify"> Sus logros fueron marcados por BBC Radio 1 y DJ MAG. Con el apoyo regular de gigantes de la escena electrónica como Jamie Jones, Loco Dice, Nic Fanciulli, Marco Carola entre otros que no pueden dejar de alegrar a los verdaderos fanáticos de la dirección de Tech House, porque sus lanzamientos fueron los más vendidos en 2017. ¡El español nunca está lejos de la cima de las listas gracias a su alta tasa de lanzamiento en etiquetas como Snatch! , Solid Grooves , Suara , Lemon-Aid y Suruba X entre muchos otros.</p>
             </div>
             <div class="col-12 col-sm-5 col-md-5 col-lg-5 col-xl-5">
-              <img class="img1" src="img/dennis.jpg" alt="Dennis Cruz">
+              <img class="img" src="img/dennis.jpg" alt="Dennis Cruz">
             </div>
-            <div class="col-12">
-              <div class="row comentario" >
-                <div class="col-2 col-sm-1 col-md-1 col-lg-1 col-xl-1">
-                  <img src="img/iconos-deRedes/svg/user-profile.svg" alt="" class="img3">
+            <div class="col-12 fin">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text" id="btnGroupAddon"><i class="far fa-user user"></i></div>
                 </div>
-                <div class="col-10">
-                  <textarea name="comentario" class="form-control" placeholder="Escriba su comentario aqui..."></textarea>
-                </div>
+                  <textarea class="form-control" aria-label="Comentario" placeholder="Escriba su comentario aqui..."></textarea>
               </div>
             </div>
             <div class="col-12">
               <br>
-              <h2>Situacion actual del TECHNO</h2>
+              <h2>TECHNO en la actualidad</h2>
               <br>
             </div>
             <div class="col-12 col-sm-5 col-md-5 col-lg-5 col-xl-5">
-              <img class="img2" src="img/carlCox.jpg" alt="Carl Cox">
+              <img class="img" src="img/carlCox.jpg" alt="Carl Cox">
             </div>
             <div class="col-12 col-sm-7 col-md-7 col-lg-7 col-xl-7">
               <p class="lead text-justify">Estas son las palabras que dijo Carl Cox acerca del tehno: “Todo el mundo se está acercando al “Techno” ahora mismo de algún modo. Hace unos años, amigos de mis amigos decían que no querían venir a verme porque pinchaba Techno. Ahora dicen que quieren venir porque pincho Techno. La gente estaba como asustada y ahora ya no.” “Mi visión del Techno siempre ha sido oscura, asustadiza, dura. Y aún lo es. Siempre ha estado cerca del ideal del “verdadero sonido Techno”. El de Detroit. Eso es lo que yo creo que es el Techno. No toda la suavidad con la que el Techno es percibido en estos momentos. Se ha maquillado para lograr una mayor aceptación, y esa es una de las principales dificultades por las que pasa el Techno ahora mismo.”</p>
             </div>
-            <div class="col-12">
-              <div class="row comentario" >
-                <div class="col-2 col-sm-1 col-md-1 col-lg-1 col-xl-1">
-                  <img src="img/iconos-deRedes/svg/user-profile.svg" alt="Usuario" class="img3">
+            <div class="col-12 fin">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text" id="btnGroupAddon"><i class="far fa-user user"></i></div>
                 </div>
-                <div class="col-10">
-                  <textarea name="comentario" class="form-control" placeholder="Escriba su comentario aqui..."></textarea>
-                </div>
+                  <textarea class="form-control" aria-label="Comentario" placeholder="Escriba su comentario aqui..."></textarea>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 d-none d-sm-block" id="nav">
+        <!-- Buscador de artistas -->
+        <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 d-none d-sm-block" id="color-derecho">
           <div class="row">
-            <div class="col-12">
-              <input type="search" name="buscador" id="buscar">
-              <button type="search" name="button">Buscar</button>
+            <div class="col-12 buscar">
+              <div class="input-group mb-3">
+                <div class="input-group-append">
+                  <button type="button" class="btn btn-light"><i class="fas fa-search"></i></button>
+                </div>
+                <input type="text" class="form-control" placeholder="Buscar..." aria-label="Recipient's username" aria-describedby="button-addon2">
+              </div>
             </div>
             <div class="col-12">
               <br>
-              <ul class="list-group">
+              <ul class="list-group artistas">
                 <li class="list-inline-item"><a href="#">Richie Hawtin</a></li>
                 <li class="list-inline-item"><a href="#">Marco Carola</a></li>
                 <li class="list-inline-item"><a href="#">Adam Beyer</a></li>

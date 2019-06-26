@@ -1,99 +1,84 @@
+/* el color negro del fondo */
 body{
   background-color: black;
 }
-#fondo{
+/* color blanco del fondo del contenido */
+#contenido{
+  padding-top: 1vh;
+  background-color: white;
+}
+/* ina imagen de fondo donde se encuntra el logo y las redes sociales */
+#fondo-logo{
   background-image: url(../img/portada2.jpg);
 }
+/* edicion del logo */
 #logo{
-  width: 40%;
-  margin: 1vh;
-}
-#icono{
-  width: 10%;
-  margin-top: 1vh;
-  margin-left: 0.6vh;
-  margin-right: 0.6vh;
-}
-#contenido{
-  background-color: white;
-  padding-left: 1%;
-  padding-bottom: 1%;
-}
-.img1{
+  padding-top: 1.5vh;
+  padding-bottom: 0.5vh;
   width: 100%;
-  margin: 1.5%;
 }
-.img2{
-  width: 95%;
-  margin: 1.5%;
+/* edicion de las redes sociales */
+#icono{
+  padding-top: 5vh;
+  padding-bottom: 1vh;
+  width: 9%;
 }
-.img3{
-  width: 95%;
-  margin-top: 20%;
-  margin-left: 30%;
-}
-.comentario{
-  padding-top: 1%;
-}
-#nav{
-  background-color: gray;
-}
+/* edicion para que el menu */
 .nav-item{
   text-align: center;
   width: 100%;
 }
-a{
+.nav-item a{
+  width: 100%;
+  font-size: 20px;
+}
+.pad{
+  padding: 0!important;
+}
+/* edicion de la imagen de dennis cruz y carl cox */
+.img{
+  width: 100%;
+  padding-bottom: 1.5vh;
+}
+/* linea divisora entre una y la otra noticia */
+.fin{
+  padding-top: 1vh;
+  padding-bottom: 2vh;
+  border-bottom: 2px solid black
+}
+/* color del fondo donde esta el buscador y posibles artistas */
+#color-derecho{
+  background-color: gray;
+}
+/* edicion del buscador */
+.buscar{
+  padding-top: 1.5vh;
+}
+/* edicion de los nombre de artistas buscado o referido */
+.artistas li a{
   color: white;
+  font-size: 120%;
 }
+.user{
+  font-size: 30px;
 }
-@media (min-width: 768px) {
-  body{
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-  .img3{
-    width: 4vh;
-  }
-  #redes{
-    float: right !important;
-  }
-  #buscar{
-    margin-top: 5%;
-    width: 100%;
-  }
-}
-@media (min-width: 1050px) {
+/* IDEA: el primer media querry */
+@media (min-width:770px) and (max-width:1100px){
   body{
     padding-left: 10%;
     padding-right: 10%;
   }
-  #buscar{
-    width: 62%;
-  }
   #icono{
-    width: 8%;
+    width: 7%;
   }
 }
-@media (max-width: 768px) {
-  #buscar{
-    width: 100%;
-  }
-}
-@media (min-width: 1200px) {
-  #buscar{
-    width: 67%;
-  }
-  #logo{
-    width: 30%;
-  }
+/* IDEA: segundo media querry */
+@media (min-width:1101px){
   #icono{
     width: 5%;
   }
-}
-@media (min-width: 1400px) {
-  .img3{
-    width: 95%;
-    margin-top: 20%;
-    margin-left: 20%;
+  body{
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }
