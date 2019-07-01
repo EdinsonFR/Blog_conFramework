@@ -1,5 +1,48 @@
 body{
-  background-image: url(../img/fondo1.jpg);
+  background-image: url(../img/fondo1.jpeg);
   background-size: cover;
-  background-attachment: scroll;
+  background-attachment: fixed;
+  ba
+}
+header{
+  background-attachment: fixed;
+}
+.nav{
+  min-height: 15vh;
+}
+.slogan{
+  margin: 0!important;
+}
+.img1{
+  border-radius: 25px;
+  width: 15%;
+}
+.logo{
+  margin-top: 3vh;
+  border-radius: 25px;
+}
+.contenido{
+  margin-top: 10vh;
+}
+.color{
+  margin-left: 1vh;
+  margin-right: 1vh;
+}
+p{
+  text-align: justify;
+}
+.img img{
+  margin-bottom: 4vh;
+}
+.cero{
+  padding: 0!important;
+  margin: 0!important;
+}
+.linea{
+  border-top: 2px solid black;
+  margin-top: 4vh;
+  padding-top: 2vh;
+}
+h4{
+  width: 100%;
 }
