@@ -1,0 +1,113 @@
+/* edicion del fondo  */
+body{
+  background-image: url(../img/fondo1.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+/* edicion del navbar  */
+.nav{
+  min-height: 17vh;
+}
+/* edicion del logo */
+.logo{
+  margin-top: 3vh;
+  border-radius: 25px;
+}
+/* edicion de la lista del navbar */
+.margen{
+  margin-left: 1.5vh;
+  margin-right: 1.5vh;
+}
+/* edicion del slogan  */
+.slogan{
+  margin-top: 0;
+}
+/* separacion entre el contenido y el header(navbar) */
+.margen-sup{
+  margin-top: 4.5vh;
+  padding-top: 4.5vh;
+}
+/* edicion del grupo de imagenes */
+.foto{
+  width: 100%;
+}
+/* edicion del color de texto del primer cardpanel */
+.color1{
+  color: white;
+}
+/* justifica todo los parrafos */
+p{
+  text-align: justify;
+}
+/* coloca una line entre la foto de diego y su comentario */
+.linea{
+  border-top: 2px solid black;
+  margin-top: 4vh;
+  padding-top: 2vh;
+}
+/* edicion del boton enviar */
+.color-button{
+  background-color: white;
+  color: black;
+}
+/* media query para 400px y menos */
+@media (max-width:400px) {
+  nav{
+    min-height: 16vh;;
+  }
+  .logo{
+    margin-top: 3vh;
+  }
+}
+/* media querry para 411px */
+@media (min-width:410px) and (max-width:411px) {
+  .nav{
+    min-height: 14vh;
+  }
+  .logo{
+    margin-top: 2.4vh;
+  }
+  .slogan{
+    margin-top: 3vh;
+  }
+  .margen-sup{
+    margin-top: 2.5vh;
+    padding-top: 2.5vh;
+  }
+}
+/* media query para tablets */
+@media (min-width:767px) and (max-width:768px) {
+  .nav{
+    min-height: 15.5vh;
+  }
+  .margen-sup{
+    margin-top: 1vh;
+    padding-top: 1vh;
+  }
+}
+@media (min-width:1023px) and (max-width:1025px) {
+  .nav{
+    min-height: 12vh;
+  }
+  .margen-sup{
+    margin-top: 1vh;
+    padding-top: 1vh;
+  }
+}
+/* media querry para descktop */
+@media (min-width:500px) and (max-width:600px) {
+  .margen-sup{
+    padding-top: 0;
+  }
+}
+@media (min-width:1100px) {
+  .slogan{
+    margin-top: 3vh;
+  }
+}
+@media (max-width:600px) and (min-width:499px) {
+  .nav{
+    min-height: 18.5vh;
+  }
+}
